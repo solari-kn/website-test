@@ -33,10 +33,12 @@ $font-ja:'Sawarabi Mincho', sans-serif;
 }
 
 main {
-
-  /* .main-h2, .main-h3, .main-p {
+  h3, p {
+    font-family: $font-ja;
+  }
+  .main-h2, .main-h3, .main-p {
     text-align: center;
-  } */
+  }
   .ability {
     background: #f5f5f5;
   }

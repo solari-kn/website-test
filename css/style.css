@@ -36,10 +36,12 @@
   }
 }
 
-main {
-  /* .main-h2, .main-h3, .main-p {
-    text-align: center;
-  } */
+main h3, main p {
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+main .main-h2, main .main-h3, main .main-p {
+  text-align: center;
 }
 
 main .ability {
