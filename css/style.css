@@ -1,0 +1,67 @@
+.profile-header {
+  background-color: #012d56;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-header h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  font-family: "Gayathri", sans-serif;
+  margin: 0;
+}
+
+.profile-header p {
+  font-family: "Gayathri", sans-serif;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-header {
+    height: 350px;
+  }
+  .profile-header h1 {
+    font-size: 5rem;
+  }
+  .profile-header p {
+    font-size: 1.4rem;
+  }
+}
+
+main {
+  /* .main-h2, .main-h3, .main-p {
+    text-align: center;
+  } */
+}
+
+main .ability {
+  background: #f5f5f5;
+}
+
+main .detail img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  main .detail img {
+    max-width: 500px;
+  }
+}
+
+.header-inner {
+  text-align: center;
+  color: #ffffff;
+  /*   .header-text {
+    color: #ffffff;
+    width: 100%;
+  } */
+}
+/*# sourceMappingURL=style.css.map */
