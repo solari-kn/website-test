@@ -36,11 +36,79 @@
   }
 }
 
-main h3, main p {
+main h2 {
+  font-family: "Gayathri", sans-serif;
+  font-size: 64px;
+  color: #012d56;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+main .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  main .img-box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+main .img-box img {
+  margin: auto 20px;
+  max-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  main .img-box img {
+    max-width: 350px;
+  }
+}
+
+main .img-box .img-text {
+  margin: 0 20px;
+  min-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  main .img-box .img-text {
+    max-width: 600px;
+    margin: 0 0 0 100px;
+  }
+}
+
+main .img-box h3,
+main .img-box p {
   font-family: "Sawarabi Mincho", sans-serif;
 }
 
-main .main-h2, main .main-h3, main .main-p {
+main .img-box p {
+  font-size: 22px;
+  margin-top: 0.5rem;
+}
+
+main .img-box h3 {
+  font-size: 40px;
+  color: #012d56;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+main .main-h2 {
   text-align: center;
 }
 

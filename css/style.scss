@@ -1,6 +1,6 @@
 $color-main: #012d56;
-$font-eng: 'Gayathri', sans-serif;
-$font-ja:'Sawarabi Mincho', sans-serif;
+$font-eng: "Gayathri", sans-serif;
+$font-ja: "Sawarabi Mincho", sans-serif;
 
 .profile-header {
   background-color: $color-main;
@@ -33,10 +33,55 @@ $font-ja:'Sawarabi Mincho', sans-serif;
 }
 
 main {
-  h3, p {
-    font-family: $font-ja;
+  h2 {
+    font-family: $font-eng;
+    font-size: 64px;
+    color: $color-main;
+    margin-top: 80px;
+    margin-bottom: 0;
   }
-  .main-h2, .main-h3, .main-p {
+  .img-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+    img {
+      margin: auto 20px;
+      max-width: 200px;
+      @media screen and (min-width: 768px) {
+        max-width: 350px;
+      }
+    }
+    .img-text {
+      margin: 0 20px;
+      min-width: 200px;
+      @media screen and (min-width: 768px) {
+        max-width: 600px;
+        margin: 0 0 0 100px;
+      }
+      // flex: 0 0 400px;
+    }
+    h3,
+    p {
+      font-family: $font-ja;
+    }
+    p {
+      font-size: 22px;
+      margin-top: 0.5rem;
+    }
+    h3 {
+      font-size: 40px;
+      color: $color-main;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+
+  .main-h2 {
     text-align: center;
   }
   .ability {
@@ -51,8 +96,6 @@ main {
     }
   }
 }
-
-
 
 .header-inner {
   // height: 250px;
