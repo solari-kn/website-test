@@ -1,6 +1,7 @@
 $color-main: #012d56;
 $font-eng: "Gayathri", sans-serif;
 $font-ja: "Sawarabi Mincho", sans-serif;
+$mq-min: 600px;
 
 .profile-header {
   background-color: $color-main;
@@ -23,7 +24,7 @@ $font-ja: "Sawarabi Mincho", sans-serif;
     font-family: $font-eng;
     margin: 0;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $mq-min) {
     height: 350px;
     h1 {
       font-size: 5rem;
@@ -43,7 +44,7 @@ main {
     color: $color-main;
     margin-top: 50px;
     margin-bottom: 0;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $mq-min) {
       font-size: 64px;
     }
   }
@@ -53,19 +54,19 @@ main {
     align-items: center;
     flex-direction: column;
     margin: 20px 20px 60px;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $mq-min) {
       flex-direction: row;
     }
     img {
       margin: 0 30px 40px;
       max-width: 200px;
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $mq-min) {
         max-width: 300px;
       }
     }
     .img-text {
       min-width: 200px;
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $mq-min) {
         max-width: 600px;
         margin-left: 50px;
       }
@@ -80,7 +81,7 @@ main {
       line-height: 1.6em;
       letter-spacing: 0.1em;
       margin-top: 0.5rem;
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $mq-min) {
         font-size: 18px;
       }
     }
@@ -90,7 +91,7 @@ main {
       color: $color-main;
       margin-bottom: 0;
       margin-top: 0;
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $mq-min) {
         font-size: 32px;
       }
     }
@@ -115,7 +116,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $mq-min) {
       flex-direction: row;
       margin: 20px auto;
     }
@@ -127,7 +128,7 @@ main {
       max-width: 350px;
       padding-top: 240px;
       flex: 1 2.5 auto;
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $mq-min) {
         max-width: 350px;
         padding-top: 350px;
         margin-left: 40px;
@@ -141,7 +142,7 @@ main {
       flex: 1 2 auto;
       min-width: 300px;
       line-height: 2.2em;
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: $mq-min) {
         text-align: left;
         font-size: 15px;
         padding: 0;
@@ -164,7 +165,7 @@ footer {
     font-size: 12px;
     text-align: center;
     letter-spacing: 0.1em;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $mq-min) {
       font-size: 1rem;
     }
   }
